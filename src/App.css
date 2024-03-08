@@ -1,0 +1,65 @@
+#root {
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: left;
+}
+
+/* Header */
+
+.header {
+  max-width: 1366px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-bottom: 2px solid white;
+}
+
+.header img {
+  display: flex;
+  width: 191px;
+  height: 67px;
+  scale: 1.4;
+  margin-inline: 35px;
+}
+
+.header h1 {
+  max-width: 840px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* Main */
+
+.layout-list {
+  background-color: darkgrey;
+  margin-top: 10px;
+  width: 100%;
+  font-size: 0.85rem;
+  letter-spacing: -0.5px;
+}
+
+
+.layouts {
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+  padding-inline: 25px;
+  padding: 1rem;
+}
+
+.copy-button {
+  background-color: lightgrey;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  border: 3px solid grey;
+}
+
+.layout-container h1 {
+  text-align: center;
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-decoration: underline;
+}
